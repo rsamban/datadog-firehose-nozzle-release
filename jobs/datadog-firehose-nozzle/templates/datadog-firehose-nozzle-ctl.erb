@@ -4,12 +4,15 @@ RUN_DIR=/var/vcap/sys/run/datadog-firehose-nozzle
 LOG_DIR=/var/vcap/sys/log/datadog-firehose-nozzle
 PIDFILE=$RUN_DIR/datadog-firehose-nozzle.pid
 
+
 case $1 in
 
 start)
 
 mkdir -p $RUN_DIR
 mkdir -p $LOG_DIR
+
+#touch $LOG_DIR/events.txt
 
 chown -R vcap:vcap $LOG_DIR
 
