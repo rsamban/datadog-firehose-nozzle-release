@@ -31,3 +31,4 @@
 [submodule "src/datadog-firehose-nozzle/src/github.com/rsamban/datadog-firehose-nozzle"]
 	path = src/datadog-firehose-nozzle/src/github.com/rsamban/datadog-firehose-nozzle
 	url = https://github.com/rsamban/datadog-firehose-nozzle
+	branch = master
